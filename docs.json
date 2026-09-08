@@ -18,20 +18,63 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "tabs": [
+      {
+        "tab": "Start here",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Commentary",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "commentary/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Library",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "library/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Healing & practice",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "healing-practice/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "About",
+        "groups": [
+          {
+            "group": "Mission & vision",
+            "pages": [
+              "about/mission"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
